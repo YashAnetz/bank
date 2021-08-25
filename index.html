@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="overlay hide">
+      <section class="error">
+        <h2>Kindly check username/password OR</h2>
+      </section>
+    </section>
+
+    <section class="logo">
+      <img class="imglogo" src="logo.png" />
+      <h2 class="bank">BANK</h2>
+    </section>
+
+    <section class="login">
+      <h2>ENTER DETAILS</h2>
+      <div class="details">
+        <label for="username">Username</label>
+        <input type="text" class="username" id="loginName" />
+        <label for="password">Password</label>
+        <input type="password" class="password" id="loginPassword" />
+        <button class="logbutton" id="loginButton">Login</button>
+
+        <button class="signupbutton">Signup</button>
+      </div>
+    </section>
+
+    <section class="bankmain hide">
+      <h2 class="user">WELCOME</h2>
+
+      <h3>BALANCE</h3>
+      <h1 class="balance">$0</h1>
+      <section class="wid">
+        <label class="deptext" for="deposit">DEPOSIT</label>
+
+        <input type="number" class="deposit" />
+
+        <label class="withtext" for="withdraw"> WITHDRAW</label>
+
+        <input type="number" class="withdraw" />
+      </section>
+
+      <section class="transac"><h3 class="tran">Transation</h3></section>
+      <button class="add"><img src="add.png" /></button>
+      <button class="logout"><i class="fas fa-home"></i></button>
+    </section>
+
+    <section class="signup hide">
+      <label for="username" class="label1">Create User</label>
+      <input type="text" id="registerName" />
+      <label for="password" class="label2">Password</label>
+      <input type="password" id="registerPassword" />
+      <button id="registerButton">Signup</button>
+      <button id="loginback">login</button>
+      <h3 id="loginResult">Hello , User</h3>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/d5ac65ff9c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="src.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d5ac65ff9c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
