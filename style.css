@@ -505,13 +505,16 @@ img {
 
   .overlay h2 {
     position: relative;
-    left: -60px;
-    padding: 50px;
-    font-size: medium;
-
-    top: 120px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(10, 10, 10);
+    top: 100px;
+    left: -90px;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(204, 204, 204);
     box-shadow: 1px 1px 10px 1px black;
   }
 }
