@@ -496,12 +496,13 @@ img {
   .overlay {
     position: relative;
     background-color: rgba(122, 118, 118, 0.8);
-    width: 120%;
+    width: 105%;
     text-align: center;
-    top: 0px;
+    margin: -10px;
+    top: 12px;
 
-    left: 0px;
-    height: 120%;
+    left: 13px;
+    height: 105%;
     z-index: 10;
   }
 
