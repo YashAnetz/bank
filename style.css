@@ -418,7 +418,7 @@ img {
   left: -120px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .bankmain {
     border-top-left-radius: 20px;
 
@@ -496,13 +496,13 @@ img {
   .overlay {
     position: relative;
     background-color: rgba(122, 118, 118, 0.8);
-    width: 116%;
+    width: 107%;
     text-align: center;
     margin: 0px;
     top: 0px;
     overflow: hidden;
     left: 0px;
-    height: 115%;
+    height: 107%;
   }
 
   .overlay h2 {
