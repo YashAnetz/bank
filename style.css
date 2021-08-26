@@ -452,7 +452,7 @@ img {
     background-color: rgb(252, 252, 162);
 
     top: -200px;
-    left: 80px;
+    left: 50px;
     right: 0;
     bottom: 0;
     color: aliceblue;
@@ -478,7 +478,7 @@ img {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     top: 200px;
-    left: 80px;
+    left: 50px;
     right: 0;
     bottom: 0;
     color: aliceblue;
