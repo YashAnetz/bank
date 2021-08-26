@@ -521,4 +521,12 @@ img {
     background-color: rgb(204, 204, 204);
     box-shadow: 1px 1px 10px 1px black;
   }
+
+  .username {
+    padding: 5px;
+  }
+
+  .password {
+    padding: 5px;
+  }
 }
