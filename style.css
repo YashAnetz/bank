@@ -9,6 +9,7 @@ body,
 html {
   background-color: rgb(222, 226, 240);
   height: 100%;
+  width: 100%;
 }
 .login {
   border-top-left-radius: 20px;
@@ -495,7 +496,7 @@ img {
   .overlay {
     position: relative;
     background-color: rgba(122, 118, 118, 0.8);
-    width: 28.5rem;
+    width: 130%;
     text-align: center;
     top: 0px;
     left: 0px;
@@ -509,6 +510,7 @@ img {
     left: -90px;
     right: 0;
     bottom: 0px;
+    font-weight: 100;
     margin: auto;
     width: 200px;
     height: 100px;
