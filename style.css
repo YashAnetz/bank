@@ -496,7 +496,7 @@ img {
   .overlay {
     position: relative;
     background-color: rgba(122, 118, 118, 0.8);
-    width: 130%;
+    width: 100%;
     text-align: center;
     top: 0px;
 
