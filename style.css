@@ -550,6 +550,31 @@ img {
 
   .add {
     position: relative;
-    left: 250px;
+    left: 290px;
+    width: 100px;
+  }
+
+  .bankmain input {
+    position: relative;
+    top: 30px;
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 10px;
+    left: -90px;
+  }
+
+  .bankmain label {
+    position: relative;
+    float: left;
+    left: 90px;
+    margin: 10px;
+  }
+
+  .logout {
+    position: relative;
+    left: -90px;
   }
 }
