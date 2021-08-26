@@ -505,10 +505,10 @@ img {
 
   .overlay h2 {
     position: relative;
-    left: -70px;
+    left: -60px;
     padding: 50px;
     font-size: medium;
-    margin: -30px;
+
     top: 120px;
     background-color: rgb(209, 209, 209);
     color: rgb(10, 10, 10);
