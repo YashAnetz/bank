@@ -434,11 +434,12 @@ img {
       #4e54c8
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    top: 400px;
-    left: 170px;
+    top: 300px;
+    left: 0rem;
     right: 0;
     margin: 10px;
     bottom: 0;
+    width: 420px;
     color: aliceblue;
     position: relative;
 
@@ -545,5 +546,10 @@ img {
     left: -30px;
     font-weight: bold;
     position: relative;
+  }
+
+  .add {
+    position: relative;
+    left: 250px;
   }
 }
