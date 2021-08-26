@@ -525,6 +525,8 @@ img {
   .username {
     position: relative;
     padding: 5px;
+    border-bottom-right-radius: 20px;
+    border-style: none;
     width: 100%;
     left: -40px;
   }
@@ -533,6 +535,8 @@ img {
     position: relative;
     padding: 5px;
     width: 100%;
+    border-bottom-right-radius: 20px;
+    border-style: none;
     left: -40px;
   }
 
