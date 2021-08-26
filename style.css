@@ -526,14 +526,11 @@ img {
     position: relative;
     padding: 5px;
     width: 100%;
-    left: -50px;
   }
 
   .password {
-    padding: 5px;
     position: relative;
     padding: 5px;
     width: 100%;
-    left: -50px;
   }
 }
