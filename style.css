@@ -1,11 +1,14 @@
 * {
   margin: 0;
   transition: 0.5s;
+
   padding: 0;
 }
 
-body {
+body,
+html {
   background-color: rgb(222, 226, 240);
+  height: 100%;
 }
 .login {
   border-top-left-radius: 20px;
@@ -487,5 +490,27 @@ img {
     position: relative;
     top: 300px;
     left: 50px;
+  }
+
+  .overlay {
+    position: relative;
+    background-color: rgba(122, 118, 118, 0.8);
+    width: 28.5rem;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .overlay h2 {
+    position: relative;
+    left: -70px;
+    padding: 50px;
+    margin: -30px;
+    top: 210px;
+    background-color: rgb(209, 209, 209);
+    color: rgb(10, 10, 10);
+    box-shadow: 1px 1px 10px 1px black;
   }
 }
