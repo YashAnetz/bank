@@ -511,10 +511,10 @@ img {
     right: 0;
     bottom: 0px;
     font-weight: 100;
-    margin: auto;
+
     width: 200px;
     height: 100px;
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
     background-color: rgb(204, 204, 204);
     box-shadow: 1px 1px 10px 1px black;
