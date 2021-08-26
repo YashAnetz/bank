@@ -526,11 +526,20 @@ img {
     position: relative;
     padding: 5px;
     width: 100%;
+    left: -20px;
   }
 
   .password {
     position: relative;
     padding: 5px;
     width: 100%;
+    left: -20px;
+  }
+
+  .details label {
+    font-size: 17px;
+    left: -10px;
+    font-weight: bold;
+    position: relative;
   }
 }
