@@ -577,4 +577,9 @@ img {
     position: relative;
     left: -90px;
   }
+
+  #registerButton {
+    position: relative;
+    left: -160px;
+  }
 }
