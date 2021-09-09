@@ -57,10 +57,10 @@ add.addEventListener("click", function () {
 
   if (flag == 0) {
     finalbal = bal + Number(depamount);
-    transations.textContent = `\n➕You deposited  ₹${depamount} into your savings account , Total balance is ${finalbal} ➕                    `;
+    transations.textContent = `You deposited  ₹${depamount} into your savings account , Total balance is ${finalbal}                     `;
   } else if (flag == 1) {
     finalbal = bal - Number(withamount);
-    transations.textContent = `\n➖You withdrew  ₹${withamount} from your savings account , Total balance is ${finalbal} ➖ `;
+    transations.textContent = `You withdrew  ₹${withamount} from your savings account , Total balance is ${finalbal}  `;
   }
 
   balancedisplay.textContent = `₹${finalbal}`;
